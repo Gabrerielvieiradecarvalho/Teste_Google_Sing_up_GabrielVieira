@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: exselenium.GoogleTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+exselenium.GoogleTest.test_special_character()  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at exselenium.GoogleTest.test_special_character(GoogleTest.java:65)
+
+exselenium.GoogleTest.test_email_exist()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at exselenium.GoogleTest.test_email_exist(GoogleTest.java:97)
+
+exselenium.GoogleTest.teste_short_email()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at exselenium.GoogleTest.teste_short_email(GoogleTest.java:33)
+
